@@ -1,0 +1,5 @@
+venv/ #Dont push packages too large
+__pycache__ / #don't push Python cache
+*.pyc
+.env  #Dont push secrets
+*.db  #Dont push databasefile
